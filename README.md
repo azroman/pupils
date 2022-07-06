@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 python manage.py migrate
 ```
-### 5. Uploda data
+### 5. Upload data
 ```
 python manage.py upload_pupils take_home_assignment_data.csv
 ```
