@@ -20,9 +20,9 @@ class Command(BaseCommand):
         with open(filepath) as f:
             line = f.readline()
             while line:
+                line = f.readline()
                 if not line:
                     continue
-                line = f.readline()
                 splitted = line.split(',')
                 p_id = splitted[0]
                 name = splitted[1].replace('"', '')
